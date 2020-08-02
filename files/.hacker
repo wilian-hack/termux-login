@@ -1,0 +1,30 @@
+command_not_found_handle() {
+		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+	}
+
+PS1="$ "
+green="\e[0;32m\033[1m"
+white="\033[0m\e[0m"                                                  
+red="\e[0;31m\033[1m"                                                 
+blue="\e[0;34m\033[1m"                                                 
+yellow="\e[0;33m\033[1m"
+purple="\e[0;35m\033[1m"
+turquoise="\e[0;36m\033[1m"                                     
+gray="\e[1;90m"
+
+echo -e "$yellow
+               __ __   ____     __  __  _    ___  ____
+              |  T  T /    T   /  ]|  l/ ]  /  _]|    \
+              |  l  |Y  o  |  /  / |  ' /  /  [_ |  D  )
+	      |  _  ||     | /  /  |    \ Y    _]|    /
+	      |  |  ||  _  |/   \_ |     Y|   [_ |    \
+	      |  |  ||  |  |\     ||  .  ||     T|  .  Y
+	      l__j__jl__j__j \____jl__j\_jl_____jl__j\_j
+
+     __  ____  ____     ___  ____   ____     ___  ______  ____     __
+    /  ]l    j|    \   /  _]|    \ |    \   /  _]|      Tl    j   /  ]
+   /  /  |  T |  o  ) /  [_ |  D  )|  _  Y /  [_ |      | |  T   /  /
+  /  /   |  | |     TY    _]|    / |  |  |Y    _]l_j  l_j |  |  /  /
+ /   \_  |  | |  O  ||   [_ |    \ |  |  ||   [_   |  |   |  | /   \_
+ \     | j  l |     ||     T|  .  Y|  |  ||     T  |  |   j  l \     |
+  \____j|____jl_____jl_____jl__j\_jl__j__jl_____j  l__j  |____j \____j\n$white"
